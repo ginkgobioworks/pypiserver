@@ -5,7 +5,7 @@
 
 from os.path import dirname
 
-from watchdog.observers import Observer
+from watchdog.observers.polling import PollingObserver
 import threading
 
 class CacheManager(object):
